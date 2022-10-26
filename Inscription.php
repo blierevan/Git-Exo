@@ -23,6 +23,7 @@ if(isset($_POST['forminscription'])) {
                      $erreur = "Your account has been created! <a href=\"login.php\">Login Here</a>";
                   } else {
                      $erreur = "Passwords do not match!";
+                     echo 'yooooooooooooo';
                   }
                } else {
                   $erreur = "Email is already in use!";
